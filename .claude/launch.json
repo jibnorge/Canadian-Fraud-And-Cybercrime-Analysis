@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "fraud-dashboard",
+      "runtimeExecutable": "C:\\Users\\jibin\\miniconda3\\envs\\norton\\python.exe",
+      "runtimeArgs": ["dashboard.py"],
+      "port": 8050
+    }
+  ]
+}
