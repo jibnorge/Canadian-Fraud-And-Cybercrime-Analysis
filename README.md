@@ -2,6 +2,8 @@
 
 This project analyzes Canadian fraud and cybercrime reporting data to uncover patterns, trends, and insights related to reported fraud incidents and financial losses. The analysis explores how fraud varies across categories, geography, and victim demographics, and includes an interactive dashboard for exploring the data first-hand.
 
+![Dashboard screenshot](dashboard.png)
+
 ## Objectives
 
 * Explore trends and patterns in reported fraud and cybercrime cases in Canada.
@@ -30,6 +32,7 @@ The dataset is the **Canadian Anti-Fraud Centre (CAFC) Open Government database*
 ```
 ├── analysis.ipynb          # Data cleaning + exploratory data analysis
 ├── dashboard.py             # Interactive Dash web dashboard
+├── dashboard.png             # Dashboard screenshot
 ├── assets/
 │   └── style.css             # Dashboard styling
 ├── cafc-open-gouv-database-*.csv   # Source dataset
@@ -90,19 +93,3 @@ Then open `http://127.0.0.1:8050` in a browser. An internet connection is needed
 * **Romance fraud** carries one of the highest median dollar losses among top categories, well above the overall median.
 * **Ontario** accounts for the largest share of Canadian reports and a higher-than-average median dollar loss.
 * Victims most frequently fall in the **30–39** and **60–69** age ranges, with losses and volumes varying notably by gender within each range.
-
-## Project Status
-
-**In Progress** — core data cleaning, EDA, and the interactive dashboard are complete; additional analysis and insights are still being added.
-
-## Future Enhancements
-
-* Deploy the Dash dashboard to a public hosting service.
-* Add year-over-year and seasonal trend analysis.
-* Explore statistical relationships between fraud category, solicitation method, and financial loss.
-* Add automated data-quality checks for future data refreshes.
-* Apply anomaly detection to flag unusual reporting spikes.
-
-## Skills Demonstrated
-
-Data Cleaning | Data Analysis | Exploratory Data Analysis | Data Visualization | Interactive Dashboards | Python | Pandas | NumPy | Matplotlib | Seaborn | Plotly | Dash | Data Quality | Statistical Analysis | Data Storytelling
