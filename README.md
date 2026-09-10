@@ -36,6 +36,7 @@ The dataset is the **Canadian Anti-Fraud Centre (CAFC) Open Government database*
 ├── assets/
 │   └── style.css             # Dashboard styling
 ├── cafc-open-gouv-database-*.csv   # Source dataset
+├── requirements.txt         # Python dependencies
 └── README.md
 ```
 
@@ -72,7 +73,7 @@ The dataset is the **Canadian Anti-Fraud Centre (CAFC) Open Government database*
 ### Running the dashboard locally
 
 ```bash
-pip install dash plotly pandas
+pip install -r requirements.txt
 python dashboard.py
 ```
 
